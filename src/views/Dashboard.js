@@ -5,6 +5,7 @@ import React from "react";
 import classNames from "classnames";
 // react plugin used to create charts
 import { Line, Bar } from "react-chartjs-2";
+// import Card from 'react-bootstrap/Card';
 
 // reactstrap components
 import {
@@ -14,6 +15,7 @@ import {
   CardHeader,
   CardBody,
   CardTitle,
+ 
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
@@ -50,7 +52,7 @@ function Dashboard(props) {
                 <Row>
                   <Col className="text-left" sm="6">
                     <h5 className="card-category">Rating Vs Time</h5>
-                    <CardTitle tag="h2">101 Rating</CardTitle>
+                    <CardTitle tag="h2">1010 Rating</CardTitle>
                   </Col>
                   <Col sm="6">
                     <ButtonGroup
@@ -110,14 +112,17 @@ function Dashboard(props) {
         <Row>
           <Col lg="4">
           <Card className="card-chart">
+          {/* <Card.Img variant="top" className='imgs' src="https://resources.esportsinsider.com/esportsinsider/2020/06/Ecricket-World-Series.jpg" /> */}
               <CardHeader>
-                <h3 className="card-category">Tournaments Status</h3>
+              
+                <h3 className="card-category"><h2>Tournaments Status</h2></h3>
                 <CardTitle tag="h3">
                   {/* <i className="tim-icons icon-send text-success" /> */}
                 </CardTitle>
               </CardHeader>
               <CardBody>
-                <img src='./PieChartGames.jpg' height='200px' width='250px'></img>
+               
+                <img src='https://lh3.googleusercontent.com/g0Jw-I6-gH2DVCpnl3u8QKZVT_meR9lcJlpyeSZ-MyvwLnyEZvgyrY5frldA8HCv55s=w280-rwa' height='200px' width='250px'></img>
                 
               </CardBody>
             </Card>
@@ -126,13 +131,16 @@ function Dashboard(props) {
           </Col>
           <Col lg="4">
           <Card className="card-chart">
+          
               <CardHeader>
-                <h5 className="card-category">Completed Tasks</h5>
+                <h5 className="card-category"><h2>Your Starred Rating</h2> </h5>
                 <CardTitle tag="h3">
-                  <i className="tim-icons icon-send text-success" /> 12,100K
+                  {/* <i className="AiFillStar icon-send text-success" /> 12,100K */}
                 </CardTitle>
               </CardHeader>
               <CardBody>
+                <img src="https://www.shutterstock.com/shutterstock/videos/1095126757/thumb/1.jpg?ip=x480" />
+                
                 
               </CardBody>
             </Card>
@@ -141,12 +149,21 @@ function Dashboard(props) {
           <Col lg="4">
             <Card className="card-chart">
               <CardHeader>
-                <h5 className="card-category">Completed Tasks</h5>
+                
                 <CardTitle tag="h3">
-                  <i className="tim-icons icon-send text-success" /> 12,100K
+                <h2>Special Skills</h2>
+                  
                 </CardTitle>
               </CardHeader>
               <CardBody>
+                <ul type='none'>
+                  <h3>
+                  <li>In-Game-Leadering</li>
+                  <li>Snipping</li>
+                  <li>Good in attacking</li>
+                  </h3>
+                  
+                </ul>
                 
               </CardBody>
             </Card>

@@ -54,6 +54,7 @@ body{
     color:red;
 }
 .btns{
+    /* color: #5cb85c; */
     font-family: 'Roboto', sans-serif;
     background-color:#5cb85c;
     border-radius: 5px;

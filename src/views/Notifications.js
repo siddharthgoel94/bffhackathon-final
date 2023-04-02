@@ -1,25 +1,7 @@
-/*!
 
-=========================================================
-* Black Dashboard React v1.2.1
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/black-dashboard-react
-* Copyright 2022 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/black-dashboard-react/blob/master/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
-// react plugin for creating notifications over the dashboard
 import NotificationAlert from "react-notification-alert";
 
-// reactstrap components
 import {
   Alert,
   UncontrolledAlert,
@@ -92,23 +74,20 @@ function Notifications() {
                   </span>
                 </Alert>
                 <UncontrolledAlert color="info">
-                <span>Alert!! New Tournament by S8UL on 10-04-2023.
+                <span>Alert!! New Tournament by new ESPN on 10-04-2023.
                     Click <a href="#"> here </a> to register
                   </span>
                 </UncontrolledAlert>
                 <UncontrolledAlert className="alert-with-icon" color="info">
                   <span className="tim-icons icon-bell-55" data-notify="icon" />
                   <span data-notify="message">
-                    This is a notification with close button and icon.
+                   Your new Rating is 101.
                   </span>
                 </UncontrolledAlert>
                 <UncontrolledAlert className="alert-with-icon" color="info">
                   <span className="tim-icons icon-bell-55" data-notify="icon" />
                   <span data-notify="message">
-                    This is a notification with close button and icon and have
-                    many lines. You can see that the icon and the close button
-                    are always vertically aligned. This is a beautiful
-                    notification. So you don't have to worry about the style.
+                   Thanks for participating in the tournament.Results would be out till eveneing.Stay tuned for updates.
                   </span>
                 </UncontrolledAlert>
               </CardBody>
@@ -122,34 +101,29 @@ function Notifications() {
               <CardBody>
                 <UncontrolledAlert color="primary">
                   <span>
-                    <b>Primary - </b>
-                    This is a regular notification made with ".alert-primary"
+                    <b>Team mortal </b>
+                    is inviting you for tournament J.J on 10-04-2023
                   </span>
                 </UncontrolledAlert>
                 <UncontrolledAlert color="info">
-                  <span>
-                    <b>Info - </b>
-                    This is a regular notification made with ".alert-info"
+                <span>
+                    <b>Team mortal </b>
+                    is inviting you for tournament J.J on 10-04-2023
                   </span>
                 </UncontrolledAlert>
                 <UncontrolledAlert color="success">
-                  <span>
-                    <b>Success - </b>
-                    This is a regular notification made with ".alert-success"
+                <span>
+                    <b>Team mortal </b>
+                    is inviting you for tournament J.J on 10-04-2023
                   </span>
                 </UncontrolledAlert>
                 <UncontrolledAlert color="warning">
-                  <span>
-                    <b>Warning - </b>
-                    This is a regular notification made with ".alert-warning"
+                <span>
+                    <b>Team mortal </b>
+                    is inviting you for tournament J.J on 10-04-2023
                   </span>
                 </UncontrolledAlert>
-                <UncontrolledAlert color="danger">
-                  <span>
-                    <b>Danger - </b>
-                    This is a regular notification made with ".alert-danger"
-                  </span>
-                </UncontrolledAlert>
+               
               </CardBody>
             </Card>
           </Col>

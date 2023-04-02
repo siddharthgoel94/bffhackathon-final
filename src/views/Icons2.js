@@ -109,7 +109,7 @@ function Icons() {
                     className="font-icon-list col-xs-6 col-xs-6"
                     lg="2"
                     md="3"
-                    sm="4"
+                    sm="3"
                   >
                     <div className="font-icon-detail">
                       <i className="tim-icons icon-bag-16" />
